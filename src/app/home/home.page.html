@@ -1,0 +1,41 @@
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" class="display">{{display}}</ion-col>
+    </ion-row>
+    <ion-row>
+        <ion-col size="3"><ion-button expand="block" size="large" id="nan" (click)="clickBorrarTodo()">AC</ion-button></ion-col>
+        <ion-col size="3"><ion-button expand="block" size="large" id="nan"(click)="clickBorrar()">C</ion-button></ion-col>
+        <ion-col size="3"> <ion-button expand="block" size="large" id="nan" (click)="clickOperator('%')">%</ion-button></ion-col>
+        <ion-col size="3"><ion-button expand="block" size="large" id="nan" (click)="clickOperator('/')">/</ion-button></ion-col>
+      </ion-row>
+      <ion-row>
+          <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(7)">7</ion-button></ion-col>
+          <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(8)">8</ion-button></ion-col>
+          <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(9)">9</ion-button></ion-col>
+          <ion-col size="3"><ion-button expand="block" size="large" id="nan" (click)="clickOperator('*')">X</ion-button></ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(4)">4</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(5)">5</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(6)">6</ion-button></ion-col>
+            <ion-col size="3"> <ion-button expand="block" size="large" id="nan" (click)="clickOperator('-')">-</ion-button></ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(1)">1</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(2)">2</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(3)">3</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" id="nan" (click)="clickOperator('+')">+</ion-button></ion-col>
+        </ion-row>
+  
+        <ion-row>
+            <ion-col size="3"><ion-button expand="block" size="large" id="nan" (click)="cambiarSigno()">+/-</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" (click)="clickNumber(0)">0</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" id="nan" (click)="clickPunto()">.</ion-button></ion-col>
+            <ion-col size="3"><ion-button expand="block" size="large" id="nan" (click)="clickIgual()">=</ion-button></ion-col>
+        </ion-row>
+  
+  
+  
+</ion-grid>
+

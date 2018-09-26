@@ -1,0 +1,28 @@
+ion-grid {
+    background-color: var(--ion-color-primary-tint);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.display {
+    font-size: 3em;
+    text-align: right;
+    font-family: "deseg7";
+    padding-top: 0.8em;
+    padding-bottom: 0.4em;
+}
+
+ion-button {
+    font-size: 1.5em;
+    --background: var(--ion-color-primary-shade);
+}
+
+#nan {
+    --background: #28256B;
+}
+
+@font-face {
+    font-family: "deseg7";
+    src: url("../../assets/fonts/DSEG7Classic-Bold.woff") format('woff');
+}
